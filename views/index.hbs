@@ -1,0 +1,7 @@
+<h1>{{title}}</h1>
+<p>welcome to {{title}}</p>
+<ul class="list-group" style="margin-left:10px">
+  {{# each articles}}
+  <a href="/articles/{{this._id}}" ><li class="list-group-item">{{this.title}}</li></a>
+  {{/each}}
+</ul>

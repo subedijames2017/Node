@@ -1,0 +1,9 @@
+<div class="messages">
+  {{#each Object}}
+  <ul class="{{this.keys.messages}}">
+  {{#each messages}}
+  <li>{{this.message}}</li>
+{{/each}}
+  </ul>
+  {{/each}}
+</div>
